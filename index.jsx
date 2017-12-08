@@ -1,7 +1,7 @@
 ---
 background: blue
 ---
-<Div bg='blue'>
+<Div bg='white'>
 <Fixed style={{zIndex: 10000}} top right left bg='main'>
   <Container>
     <Flex justify='space-between' align='center' bg='main'>
@@ -25,12 +25,13 @@ background: blue
   </Box>
   </Flex>
 </ResponsiveBackground>
+<MediaQuery />
 <Container>
-<Flex py={5} bg='black' wrap align='center'>
+<Flex py={5} bg='white' wrap align='center'>
   <Box bg='blue' w={[1,1, 1, 1/2]}>
     <EmbedVideo src="https://www.youtube.com/embed/KQ6zr6kCPj8?ecver=1" />
   </Box>
-  <Box px={[2,4]} bg='black' w={[1,1,1,1/2]}>
+  <Box px={[2,4]} bg='white' w={[1,1,1,1/2]}>
     <Flex flexDirection='column'>
       <Text f={[5,7]} color='main' bold='bold' py={[3]} lineHeight={1} >
         Skwydiving Interlaken
@@ -44,11 +45,11 @@ background: blue
     </Flex>
   </Box>
 </Flex>
-<Flex py={5} bg='blue' wrap align='center'>
-  <Box bg='blue' w={[1,1, 1, 1/2]}>
+<Flex py={5} bg='white' wrap align='center'>
+  <Box bg='white' w={[1,1, 1, 1/2]}>
     <EmbedVideo src="https://www.youtube.com/embed/KQ6zr6kCPj8?ecver=1" />
   </Box>
-  <Box px={[2,4]} bg='blue' w={[1,1,1,1/2]}>
+  <Box px={[2,4]} bg='white' w={[1,1,1,1/2]}>
     <Flex flexDirection='column'>
       <Text f={[5,7]} color='main' bold='bold' py={[3]} lineHeight={1} >
         Skwydiving Interlaken
@@ -64,12 +65,12 @@ background: blue
 </Flex>
 </Container>
 <Container>
-  <Box py={[4]} bg='#7b566d'>
+  <Box py={[4]} bg='white'>
   <Box pb={[0,4]}>
     <Text align='center' fontSize={[5]}>Benefits work with us</Text>
   </Box>
-  <Flex wrap bg='blue' justify='space-around'>
-    <Box bg='blue' w={[1,1/4 ]}>
+  <Flex wrap bg='white' justify='space-around'>
+    <Box bg='white' w={[1,1/4 ]}>
       <Flex flexDirection="column" px={['10%','5%']}>
         <Img px={[3,4,4,5]} py={[3,3,3,3]} src='http://svgshare.com/i/4Cy.svg' />
         <Text fontSize={[4]} align='center'>Hello world</Text>
@@ -78,7 +79,7 @@ background: blue
         </Text>
       </Flex>
     </Box>
-    <Box bg='blue' w={[1,1/4 ]}>
+    <Box bg='white' w={[1,1/4 ]}>
       <Flex flexDirection="column" px={['10%','5%']}>
         <Img px={[3,4,4,5]} py={[3,3,3,3]} src='http://svgshare.com/i/4Cy.svg' />
         <Text fontSize={[4]} align='center'>Hello world</Text>
@@ -87,7 +88,7 @@ background: blue
         </Text>
       </Flex>
     </Box>
-    <Box bg='blue' w={[1,1/4 ]}>
+    <Box bg='white' w={[1,1/4 ]}>
       <Flex flexDirection="column" px={['10%','5%']}>
         <Img px={[3,4,4,5]} py={[3,3,3,3]} src='http://svgshare.com/i/4Cy.svg' />
         <Text fontSize={[4]} align='center'>Hello world</Text>
@@ -96,7 +97,7 @@ background: blue
         </Text>
       </Flex>
     </Box>
-    <Box bg='blue' w={[1,1/4 ]}>
+    <Box bg='white' w={[1,1/4 ]}>
       <Flex flexDirection="column" px={['10%','5%']}>
         <Img px={[3,4,4,5]} py={[3,3,3,3]} src='http://svgshare.com/i/4Cy.svg' />
         <Text fontSize={[4]} align='center'>Hello world</Text>
@@ -109,11 +110,11 @@ background: blue
   </Box>
 </Container>
 <Container>
-  <Box py={[4]} bg='#7b566d'>
+  <Box py={[4]} bg='white'>
   <Box pb={[0,4]}>
     <Text align='center' fontSize={[5]}>Benefits work with us</Text>
   </Box>
-  <Flex wrap bg='blue' justify='space-around'>
+  <Flex wrap bg='white' justify='space-around'>
     <Box py={[3]} bg='white' w={[1,1,1/3 ]}>
       <Flex style={{
         boxShadow: '0 2px 6px 0 #000'

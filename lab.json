@@ -553,19 +553,6 @@
         "<EmbedMap src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.313896524734!2d127.03006105076032!3d37.52409723421628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca38e866bff59%3A0xd35080ce6de5bd31!2s627-1+Sinsa-dong%2C+Gangnam-gu%2C+Seoul!5e0!3m2!1sen!2skr!4v1512655476351' />"
       ],
       "system": []
-    },
-    {
-      "name": "OrderDiv",
-      "type": "Div",
-      "props": {},
-      "style": {
-        "order": "${props.order}",
-        "height": "300px"
-      },
-      "examples": [
-        ""
-      ],
-      "system": []
     }
   ]
 }
